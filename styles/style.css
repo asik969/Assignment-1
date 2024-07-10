@@ -23,6 +23,7 @@ nav ul li {
 
 .banners {
     background-image: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
     width: 100%;
     height: 90vh;
 }
@@ -44,4 +45,46 @@ nav ul li {
     border-radius: 8px;
     background-color: #0D1321;
     color: #FFFFFF;
+}
+.about{
+    margin: 50px 100px;
+    padding: 10px 50px;
+}
+.text-center{
+    text-align: center;
+}
+.containers{
+    width: 100%;
+}
+.container-1{
+    display: flex;
+    justify-content: space-between;
+}
+.container-part-1{
+    width: 460px;
+}
+.container-p{
+    margin-bottom: 20px;
+}
+.btn-learn-more{
+    padding: 5px 10px;
+    background-color: #FFFFFF;
+    color: #0D1321;
+    border: 1px solid #0D1321;
+    text-decoration: none;
+}
+.conteiner-center{
+    margin: 50px 100px;
+    padding: 10px 50px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+.yt-video{
+    width: max-content;
+    padding: 10px;
+    border: 2px solid #0D1321;
+    border-radius: 20px;
+    background-color: #FFFFFF;
 }
