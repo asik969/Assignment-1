@@ -110,3 +110,36 @@ nav ul li {
 .card-3{
     background-color: #ffdd0073;
 }
+.need-support{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+.need-support-background{
+    width: max-content;
+    padding: 10px 20px;
+    background-image: url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+.need-support-background .search{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.search input[type=text]{
+    height: 30px;
+    width: 340px;
+    padding: 0 5px;
+    font-size: 14px;
+    border-radius: 20px;
+}
+.search input[type=submit]{
+    width: 100px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
