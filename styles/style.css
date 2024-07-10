@@ -88,3 +88,25 @@ nav ul li {
     border-radius: 20px;
     background-color: #FFFFFF;
 }
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 25%;
+    border-radius: 20px;
+    padding: 20px;
+}
+.card a{
+    color: #0D1321;
+    font-weight: bold;
+}
+.card-1{
+    background-color: #ff4b1e49;
+}
+.card-2{
+    background-color: #004de863;
+}
+.card-3{
+    background-color: #ffdd0073;
+}
