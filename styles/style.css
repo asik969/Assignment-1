@@ -8,7 +8,9 @@ nav {
     justify-content: space-around;
     margin: 25px 50px;
 }
-
+.btn-primary{
+    text-decoration: none;
+}
 nav ul li {
     list-style: none;
 }
@@ -142,4 +144,11 @@ nav ul li {
     width: 100px;
     border-radius: 10px;
     background-color: #FFFFFF;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.social-icons{
+    gap: 1px;
 }
